@@ -5,6 +5,6 @@ if((ch in list1)==True):
   if(ch in list2):
     print("Vowel")
   else:
-    print("consonant")
+    print("Consonant")
 else:
   print("invalid")
