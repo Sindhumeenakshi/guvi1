@@ -4,8 +4,8 @@ if(num>1):
     if(num%i==0):
       print("no")
       break
-    else:
+  else:
       print("yes")
-      break
+      
 else:
   print("no")
