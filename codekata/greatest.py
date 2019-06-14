@@ -1,9 +1,9 @@
-s,t=(input().split())
-m=len(s)
-n=len(t)
+d,e=(input().split())
+m=len(d)
+n=len(e)
 if (m==n):
-  print(t)
+  print(e)
 elif (m>n):
-  print(s)
+  print(d)
 else:
-  print(t)
+  print(e)
