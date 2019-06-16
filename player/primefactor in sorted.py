@@ -2,7 +2,7 @@ b=int(input())
 m=[]
 c=0
 for j in range(2,b+1):
-  if(b%i)==0:
+  if(b%j)==0:
     m.append(j)
 for j in m:
   c=0
