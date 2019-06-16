@@ -1,7 +1,6 @@
 n,m=map(int,input().split())
-if(n>m):
-  print(n)
-elif(m>n):
-  print(m)
-else:
-  print(n)
+lis=[]
+for i in range(1,m+1):
+  if(n%i==0 and m%i==0):
+    lis.append(i)
+print(max(lis))
