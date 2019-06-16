@@ -1,2 +1,2 @@
-s=input()
-print(s)
+si=input()
+print(si)
