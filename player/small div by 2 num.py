@@ -1,5 +1,5 @@
-s,i = map(int,raw_input().split())
+su,i = map(int,raw_input().split())
 for k in range(1,100001):
-  if k%s==0 and k%i==0:
+  if k%su==0 and k%i==0:
     print k
     break
