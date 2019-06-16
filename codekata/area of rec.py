@@ -1,3 +1,2 @@
 l,b=map(float,input().split())
-ar=l*b
-print('{0:.5f}'.format(ar)
+print('%5.5f'%(l*b))
