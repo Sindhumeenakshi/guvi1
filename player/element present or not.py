@@ -4,6 +4,6 @@ c=0
 for i in lis:
   if(i==r):
     c=1
-if(c==1):print("yes")
+if(c==1):print("Yes")
 else:
-  print("no")
+  print("No")
